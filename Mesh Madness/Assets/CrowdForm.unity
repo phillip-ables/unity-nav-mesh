@@ -377,6 +377,7 @@ GameObject:
   - component: {fileID: 316058769}
   - component: {fileID: 316058768}
   - component: {fileID: 316058772}
+  - component: {fileID: 316058773}
   m_Layer: 0
   m_Name: BlueAgent
   m_TagString: Untagged
@@ -472,6 +473,18 @@ NavMeshAgent:
   m_BaseOffset: 1.0000001
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &316058773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 316058767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca63d0c9ca1c5b74f80f545c71574a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  home: {fileID: 763957465}
 --- !u!1 &373076758
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,6 +898,7 @@ GameObject:
   - component: {fileID: 1063798873}
   - component: {fileID: 1063798872}
   - component: {fileID: 1063798876}
+  - component: {fileID: 1063798877}
   m_Layer: 0
   m_Name: YellowAgent
   m_TagString: Untagged
@@ -980,6 +994,18 @@ NavMeshAgent:
   m_BaseOffset: 1.0000001
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1063798877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1063798871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca63d0c9ca1c5b74f80f545c71574a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  home: {fileID: 751412512}
 --- !u!1 &1287648981
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,6 +1018,7 @@ GameObject:
   - component: {fileID: 1287648983}
   - component: {fileID: 1287648982}
   - component: {fileID: 1287648986}
+  - component: {fileID: 1287648987}
   m_Layer: 0
   m_Name: RedAgent
   m_TagString: Untagged
@@ -1087,6 +1114,18 @@ NavMeshAgent:
   m_BaseOffset: 1.0000001
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1287648987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1287648981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca63d0c9ca1c5b74f80f545c71574a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  home: {fileID: 373076762}
 --- !u!1 &1390587137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,13 +1200,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1390587137}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.12, y: 14.17, z: 0.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1568032359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,6 +1387,7 @@ GameObject:
   - component: {fileID: 1935021758}
   - component: {fileID: 1935021757}
   - component: {fileID: 1935021761}
+  - component: {fileID: 1935021762}
   m_Layer: 0
   m_Name: GreenAgent
   m_TagString: Untagged
@@ -1443,6 +1483,18 @@ NavMeshAgent:
   m_BaseOffset: 1.0000001
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1935021762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935021756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca63d0c9ca1c5b74f80f545c71574a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  home: {fileID: 973899651}
 --- !u!1 &1947950132
 GameObject:
   m_ObjectHideFlags: 0

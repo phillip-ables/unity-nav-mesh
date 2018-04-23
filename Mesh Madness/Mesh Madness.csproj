@@ -247,8 +247,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AgentControl.cs" />
-    <Compile Include="Assets\DoorOpener.cs" />
+    <Compile Include="Assets\CrowdForm\AgentControl.cs" />
+    <Compile Include="Assets\CrowdForm\DoorOpener.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
